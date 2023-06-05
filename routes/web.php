@@ -17,6 +17,9 @@ use App\Http\Controllers\BlogProjectController;
 
 Route::get('/',[BlogProjectController::class,'index'])->name('home');
 Route::get('/single-blog',[BlogProjectController::class,'singleBlog'])->name('single.blog');
+Route::get('/about',[BlogProjectController::class,'about'])->name('about');
+Route::get('/contact',[BlogProjectController::class,'contact'])->name('contact');
+Route::get('/category',[BlogProjectController::class,'category'])->name('category');
 
 
 

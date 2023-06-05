@@ -12,4 +12,13 @@ class BlogProjectController extends Controller
     public function singleBlog(){
         return view('website.blog.index');
     }
+    public function about(){
+        return view('website.about.index');
+    }
+    public function contact(){
+        return view('website.contact.index');
+    }
+    public function category(){
+        return view('website.category.index');
+    }
 }
